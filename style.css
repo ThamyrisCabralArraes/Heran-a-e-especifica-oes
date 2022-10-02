@@ -1,0 +1,15 @@
+body {
+    color: red ;
+}
+#pagina {
+    padding-left : 10px;
+}
+/* Se tiver 2 seletores iguais sempre vai usar o ultimo */
+p {
+    color: blueviolet;
+}
+p {
+    color: darkorange;
+}
+
+/* o seletor mais especifico é o que vai aplicar por isso usei red em body mas o p entrou por cima*/
